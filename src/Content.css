@@ -1,0 +1,34 @@
+main {
+    color: blue;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    padding: 0 0.25rem;
+}
+
+.item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #eee;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    margin: 0.25rem 0;
+}
+
+.item:first-child{
+    margin: 0;
+}
+
+.item input[type="checkbox"] {
+    text-align: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
